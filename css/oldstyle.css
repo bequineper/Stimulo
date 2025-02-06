@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Coding */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    position: relative;
+    border: 2px solid #D9D9D9;
+    font-family: "Cutive", serif;
+    font-weight: 300;
+    font-style: normal;
+    /* padding: 80px 0 20px 180px; */
+}
+.logo{
+
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    bottom: 27px;
+}
+.logo img{
+    width: 150px;
+    
+}
+nav{
+    /* display: inline-block; */
+    text-align: center;
+    padding: 36px 0 0 0;
+    
+}
+nav ul{
+    text-align: center;
+    position: relative;
+    left: 0px;
+
+    
+    
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 0 14px;
+    position: relative;
+    left: 130px;
+}
+nav ul li a{
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: smaller;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: inline-block;
+    width: 100px;
+}
+
+
+nav ul li a:hover{
+    transform: scale(1.05);
+    font-weight: 400;
+}
+
+.dashboards{
+    background-color: #F5F5F5;
+    padding: 5px 8px;
+    border-radius: 10px;
+    position:relative
+    
+}
+.dashboards a{
+    position: relative;
+    top: 1px
+}
+.user{
+    display: inline-block;
+    position: relative;
+    left: 360px;
+    
+}
+
+.user a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: smaller;
+    position: relative;
+    
+}
+
+.loginButton{
+    border: 2px solid #767676;
+    padding: 5px 16px;
+    border-radius: 10px;
+    background-color: #E3E3E3;
+    position: relative;
+    right: 70px;
+}
+.registerButton{
+    border: 2px solid #2C2C2C;
+    padding: 5px 16px;
+    border-radius: 10px;
+    background-color: #2C2C2C;
+    position: relative;
+    right: 60px;
+    
+}
+.registerButton a{
+color: #F5F5F5;
+    }
+
+/* Fim do Header */
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+   
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 127, 127);
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(180, 255, 127);
+}
