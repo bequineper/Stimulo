@@ -154,7 +154,7 @@ nav ul li:hover{
 
 
 
-.mySpace{
+#mySpace{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,6 +187,17 @@ nav ul li:hover{
     width: max-content;
 
 }
+body{
+    height: 100rem;
+}
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    
+}
 
 #shopItens{
     display: flex;
@@ -196,7 +207,7 @@ nav ul li:hover{
     border-radius: 20px;
     height: 26rem;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -296,7 +307,7 @@ nav ul li:hover{
     
     position: absolute;
     bottom: 0;
-    left: 35%;
+    left: 37%;
 }
 .buyButton button{
     border: none;
