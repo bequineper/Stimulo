@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="/htmls/index.html">
+            <img src="/media/stimulo-logo.png" href="/htmls/index.html" alt="">
+        </a>
+        <nav>
+            <ul>
+                <li class="dashboards"><a href="">Dashboards</a></li>
+                <li><a href="">Documents</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Personalize</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Contact</a></li> 
+            </ul>
+        </nav>    
+        <div class="user">
+            <button class="loginButton">
+                <a href="">Sign In</a>
+            </button>
+            <button class="registerButton">
+                <a href="/htmls/register.html">Register</a>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section id="register_formulary">
+            <form action="#" method="post">
+                <div class="formWelcome">
+                    <h1>SIGN UP FREE</h2>
+                    <p>Have unlimited acess to all resources</p>
+                </div>
+                <div class="nameDate">
+                    <div class="input_box">
+                        <label for="Name">Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="birthday">Birthday</label>
+                        <input type="date" required>
+                    </div>
+                </div>
+                    
+                <div class="input_box">
+                    <label for="email">Email</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="input_box">
+                    <label for="password">Password</label>
+                    <input type="password" required>
+                </div>
+
+                <div class="input_sex">
+                    <label for="sexQuestion" class="sexQuestion">Sex:</label>
+                    <div class="sexOptions">
+                        <div class="sexFemale">
+                            <label for="sex">Female</label>
+                            <input type="radio" name="sex">
+                        </div>
+                        <div class="sexMale">
+                            <label for="sex">Male</label>
+                            <input type="radio" name="sex">
+                        </div>
+                    </div>
+                </div>
+
+                <input class="submit" type="submit" value="Submit"> 
+
+            </form>
+        </section>
+
+        <footer>
+            <p>
+             By clicking on "Submit" you agree to the <a href="">terms and conditions</a>*
+            </p>
+        </footer>
+    </main>
+    
+</body>
+</html>
