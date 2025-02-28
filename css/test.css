@@ -1,0 +1,128 @@
+#shopItens{
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d93b;
+    border: 3px solid #d9d9d915;
+    border-radius: 20px;
+    height: 26rem;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.shopList{
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+    /* background-color: rgb(123, 123, 123); */
+    list-style: none;
+    /* gap: 2%; */
+}
+
+.shopList li{
+    height: 100%;
+    width: 18%;
+    gap: 1rem;
+}
+
+
+.item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.2s;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.itemCard{
+    /* display: flex; */
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    border: 5px solid #3B3B3B;
+    border-radius: 40px;
+    padding: 10px;
+    transition: 0.2s;
+}
+.itemCard .itemImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1.7rem;
+    top: 0.5rem;
+}
+.itemImg img{
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    align-items: center;
+}
+.itemImg{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.2s;
+}
+
+
+.itemName{
+    font-family: "Inter",serif;
+    font-size: 35px;
+    color: #3B3B3B;
+    font-weight: 800;
+    position: absolute;
+    bottom: 1.8rem;
+    left: 0.8rem;
+}
+.itemPrice{
+    font-family: "Inter",serif;
+    font-weight: 700;
+    font-size: 100px;
+    opacity: 0.2;
+    position: absolute;
+    bottom: -30px;
+    right: -8px;
+}
+.buyButton{
+    /* align-items: end; */
+    
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+}
+.buyButton button{
+    border: none;
+    padding: 5px 1rem;
+    background-color: #f6f6f6 ;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.buyButton button a{
+    text-decoration: none;
+    color: #f6f6f6;
+    border: none;
+}
+
+.item:hover .buyButton button{
+    background-color: #F74A4A;
+    color: #F5F5F5;
+    transition: 0.2s;
+}
